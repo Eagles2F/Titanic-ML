@@ -59,3 +59,4 @@ for row in test_file_obect:       #for each row in test.csv
         row.insert(0,'0')	       #insert the prediction of did not 
         open_file_object.writerow(row) #survive (0) and write row 
 
+#jingyu
