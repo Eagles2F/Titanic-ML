@@ -48,7 +48,7 @@ print('Proportion of men who survived is %s' % proportion_men_survived)
 
 test_file_obect = csv.reader(open('D:/data/Titanic/test.csv', 'r'))
 header = next(test_file_obect)
-
+#jingyu
 open_file_object = csv.writer(open("D:/data/Titanic/genderbasedmodelpy.csv", "w"))
 for row in test_file_obect:       #for each row in test.csv
     if row[2] == 'female':             #is it a female, if yes then
